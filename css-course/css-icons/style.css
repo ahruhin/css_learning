@@ -1,0 +1,32 @@
+/* Option 2: Import via CSS */
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"); */
+
+/* Material Icon CDN  */
+/* * {@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://example.com/MaterialIcons-Regular.eot); 
+	src: local('Material Icons'),
+	  local('MaterialIcons-Regular'),
+	  url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+	  url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+	  url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  } */
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	height: 40px;
+	width: 40px;
+	background: red;
+	color: #fff;
+	padding: 10px;
+}
+i {
+	color: #fff;
+	background: tomato;
+	padding: 15px;
+	font-size: 14px;
+}

@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* html,
+body {
+	height: 100%;
+} */
+html {
+	height: 100%;
+}
+body {
+	height: inherit;
+}
+.parent {
+	background-color: #574b90;
+	/* color: #fff; */
+	margin: 20px auto;
+	padding: 20px;
+	width: 96%;
+	/* max-width: 1140px;
+    min-width: 600px ; */
+	height: initial;
+	/* max-height: 300px; */
+}

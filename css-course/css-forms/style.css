@@ -1,0 +1,101 @@
+* {
+	font-family: "poppins", sans-serif;
+	margin: 0;
+	padding: 0px;
+}
+.contact {
+	width: 30%;
+	margin: 0 auto;
+	padding: 60px 4%;
+	text-align: center;
+	background: #1b1464;
+	color: whitesmoke;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact > div {
+	width: 100%;
+}
+
+.contact h2 {
+	margin-top: -15px;
+	font-weight: bold;
+	font-size: 35px;
+	margin-bottom: 0px;
+}
+.contact p {
+	margin-top: 5px;
+	color: rgb(113, 113, 113);
+}
+.contact form {
+	margin-top: 25px;
+}
+.child_form {
+	width: 100%;
+	margin-bottom: 5px;
+	text-align: left;
+}
+.child_form label {
+	display: block;
+	margin-bottom: 4px;
+}
+.child_form input,
+.child_form textarea {
+	border: 1px solid #e4b73d;
+	border-radius: 5px;
+	padding: 10px 3%;
+	width: 94%;
+	font-family: "poppins", sans-serif;
+}
+.child_form #button {
+	width: 101%;
+	color: white;
+	background: blueviolet;
+}
+.child_form #button:focus {
+	background: black;
+	color: #fff;
+}
+.child_form .outline:focus {
+	outline: 2px solid #4ffbdf;
+	border-color: transparent;
+}
+.child_form .radio_style {
+	display: flex;
+	gap: 35px;
+}
+.child_form:last-child {
+	margin-bottom: 0px;
+}
+.contact .children_form {
+	text-align: left;
+}
+
+.gender,
+.language {
+	padding-top: 20px;
+}
+
+.gender label {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.list_style {
+	display: flex;
+	column-gap: 100px;
+	line-height: 20px;
+}
+.sss_form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+div [type="checkbox"] {
+	margin-right: 5px !important;
+}
